@@ -42,7 +42,32 @@ public class ProcedureFactorsFragment extends Fragment {
         });
 
         param1 = view.findViewById(R.id.sp01a);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param1, android.R.layout.simple_spinner_item);
-        param1.setAdapter(adapter);
+        ArrayAdapter<CharSequence> adapter1a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param1, android.R.layout.simple_spinner_item);
+        param1.setAdapter(adapter1a);
+
+        param2 = view.findViewById(R.id.sp02a);
+        ArrayAdapter<CharSequence> adapter2a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param2, android.R.layout.simple_spinner_item);
+        param2.setAdapter(adapter2a);
+
+        param3 = view.findViewById(R.id.sp03a);
+        ArrayAdapter<CharSequence> adapter3a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param3, android.R.layout.simple_spinner_item);
+        param3.setAdapter(adapter3a);
+
+        param4 = view.findViewById(R.id.sp04a);
+        ArrayAdapter<CharSequence> adapter4a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param4, android.R.layout.simple_spinner_item);
+        param4.setAdapter(adapter4a);
+
+        param5 = view.findViewById(R.id.sp05a);
+        ArrayAdapter<CharSequence> adapter5a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param5, android.R.layout.simple_spinner_item);
+        param5.setAdapter(adapter5a);
+
+        param6 = view.findViewById(R.id.sp06a);
+        ArrayAdapter<CharSequence> adapter6a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param6, android.R.layout.simple_spinner_item);
+        param6.setAdapter(adapter6a);
+
+        param7 = view.findViewById(R.id.sp07a);
+        ArrayAdapter<CharSequence> adapter7a = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param7, android.R.layout.simple_spinner_item);
+        param7.setAdapter(adapter7a);
+
     }
 }

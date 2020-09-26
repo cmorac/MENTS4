@@ -7,5 +7,47 @@
         <item>121 - 180</item>
         <item>Greater or equal to 181</item>
     </string-array>
+    <string-array name="Tabla1param2">
+        <item>Outpatient</item>
+        <item>Less than 23 h</item>
+        <item>24 - 48 h</item>
+        <item>2 - 3 days</item>
+        <item>4 or more days</item>
+    </string-array>
+    <string-array name="Tabla1param3">
+        <item>Very unlikely</item>
+        <item>Less than 5</item>
+        <item>5 - 10</item>
+        <item>11 - 25</item>
+        <item>25 or more</item>
+    </string-array>
+    <string-array name="Tabla1param4">
+        <item>Less than 100</item>
+        <item>100 - 250</item>
+        <item>250 - 500</item>
+        <item>500 - 750</item>
+        <item>751 or more</item>
+    </string-array>
+    <string-array name="Tabla1param5">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>More than 4</item>
+    </string-array>
+    <string-array name="Tabla1param6">
+        <item>1 or less</item>
+        <item>1 - 5</item>
+        <item>6 - 10</item>
+        <item>11 - 25</item>
+        <item>More than 25</item>
+    </string-array>
+    <string-array name="Tabla1param7">
+        <item>None of the following</item>
+        <item>Abdominopelvic MIS</item>
+        <item>Abdominopelvic open surgery, infraumbilical</item>
+        <item>Abdominopelvic open surgery, supraumbilical</item>
+        <item>OHNS/upper GI/thoracic</item>
+    </string-array>
 
 </resources>
