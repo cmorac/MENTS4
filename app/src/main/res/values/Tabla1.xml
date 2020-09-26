@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tabla1param1">
+        <item>Less than 30</item>
+        <item>31 - 60</item>
+        <item>61 - 120</item>
+        <item>121 - 180</item>
+        <item>Greater or equal to 181</item>
+    </string-array>
+
+</resources>

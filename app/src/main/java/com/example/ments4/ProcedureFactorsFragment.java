@@ -4,12 +4,22 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 public class ProcedureFactorsFragment extends Fragment {
+
+    Spinner param1;
+    Spinner param2;
+    Spinner param3;
+    Spinner param4;
+    Spinner param5;
+    Spinner param6;
+    Spinner param7;
 
     @Override
     public View onCreateView(
@@ -30,5 +40,9 @@ public class ProcedureFactorsFragment extends Fragment {
                         .navigate(R.id.action_PrF_to_SecondFragment);
             }
         });
+
+        param1 = view.findViewById(R.id.sp01a);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity().getBaseContext(),R.array.Tabla1param1, android.R.layout.simple_spinner_item);
+        param1.setAdapter(adapter);
     }
 }
