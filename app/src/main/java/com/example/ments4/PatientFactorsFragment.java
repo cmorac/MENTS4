@@ -17,7 +17,7 @@ public class PatientFactorsFragment extends Fragment {
             Bundle savedInstanceState
     ) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_procedure_factors, container, false);
+        return inflater.inflate(R.layout.fragment_patient_factors, container, false);
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {

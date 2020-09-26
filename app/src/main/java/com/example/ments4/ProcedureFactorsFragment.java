@@ -21,6 +21,8 @@ public class ProcedureFactorsFragment extends Fragment {
     Spinner param6;
     Spinner param7;
 
+    int PrFScore;
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,

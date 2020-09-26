@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tabla2param1">
+        <item>None available</item>
+        <item>Available, less than 40% as effective as surgery</item>
+        <item>Available, 40% to 60% as effective as surgery</item>
+        <item>Available, 61% to 95% as effective as surgery</item>
+        <item>Available, equally effective</item>
+    </string-array>
+    <string-array name="Tabla2param2">
+        <item>Significantly worse/not applicable</item>
+        <item>Somewhat worse</item>
+        <item>equivalent</item>
+        <item>Somewhat better</item>
+        <item>Significantly better</item>
+    </string-array>
+    <string-array name="Tabla2param3_6">
+        <item>Significantly worse</item>
+        <item>Worse</item>
+        <item>Moderately worse</item>
+        <item>Slightly worse</item>
+        <item>No worse</item>
+    </string-array>
+</resources>
