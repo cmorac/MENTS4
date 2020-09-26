@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.ments4.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.ments4.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_PrF"
+            app:destination="@id/ProcedureFactorsFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_DiF"
+            app:destination="@id/DiseaseFactorsFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_PaF"
+            app:destination="@id/PatientFactorsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ProcedureFactorsFragment"
+        android:name="com.example.ments4.ProcedureFactorsFragment"
+        android:label="Procedure Factors Fragment"
+        tools:layout="@layout/fragment_procedure_factors">
+
+        <action
+            android:id="@+id/action_PrF_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DiseaseFactorsFragment"
+        android:name="com.example.ments4.DiseaseFactorsFragment"
+        android:label="Disease Factors Fragment"
+        tools:layout="@layout/fragment_disease_factors">
+
+        <action
+            android:id="@+id/action_DiF_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PatientFactorsFragment"
+        android:name="com.example.ments4.PatientFactorsFragment"
+        android:label="Patient Factors Fragment"
+        tools:layout="@layout/fragment_patient_factors">
+
+        <action
+            android:id="@+id/action_PaF_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+</navigation>
