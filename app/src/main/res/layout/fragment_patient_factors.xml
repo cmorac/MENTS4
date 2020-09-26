@@ -10,9 +10,9 @@
         android:id="@+id/PaFTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:text="@string/patient_factors"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/text1c"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,18 +21,19 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="15dp"
         android:text="@string/previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp08c" />
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/text1c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="60dp"
         android:text="Age (y)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
@@ -40,145 +41,145 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/sp01"
+        android:id="@+id/sp01c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1c" />
+
+    <TextView
+        android:id="@+id/text2c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text1" />
-
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="Lung disease (asthma, COPD, CF)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp01" />
+        app:layout_constraintTop_toBottomOf="@+id/sp01c" />
 
     <Spinner
-        android:id="@+id/sp02"
+        android:id="@+id/sp02c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2c" />
+
+    <TextView
+        android:id="@+id/text3c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text2" />
-
-    <TextView
-        android:id="@+id/text3"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="obstructive sleep apnea"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp02" />
+        app:layout_constraintTop_toBottomOf="@+id/sp02c" />
 
     <Spinner
-        android:id="@+id/sp03"
+        android:id="@+id/sp03c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3c" />
+
+    <TextView
+        android:id="@+id/text4c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text3" />
-
-    <TextView
-        android:id="@+id/text4"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="CV disease (HTN, CHF, CAD)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp03" />
+        app:layout_constraintTop_toBottomOf="@+id/sp03c" />
 
     <Spinner
-        android:id="@+id/sp04"
+        android:id="@+id/sp04c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4c" />
+
+    <TextView
+        android:id="@+id/text5c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text4" />
-
-    <TextView
-        android:id="@+id/text5"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="Diabetes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp04" />
+        app:layout_constraintTop_toBottomOf="@+id/sp04c" />
 
     <Spinner
-        android:id="@+id/sp05"
+        android:id="@+id/sp05c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text5c" />
+
+    <TextView
+        android:id="@+id/text6c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text5" />
-
-    <TextView
-        android:id="@+id/text6"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="Immunocompromised"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp05" />
+        app:layout_constraintTop_toBottomOf="@+id/sp05c" />
 
     <Spinner
-        android:id="@+id/sp06"
+        android:id="@+id/sp06c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text6c" />
+
+    <TextView
+        android:id="@+id/text7c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text6" />
-
-    <TextView
-        android:id="@+id/text7"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="ILI symptoms (fever, cough, sore throat, body aches, diarrhea)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp06" />
+        app:layout_constraintTop_toBottomOf="@+id/sp06c" />
 
     <Spinner
-        android:id="@+id/sp07"
+        android:id="@+id/sp07c"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text7c" />
+
+    <TextView
+        android:id="@+id/text8c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text7" />
-
-    <TextView
-        android:id="@+id/text8"
-        android:layout_width="360dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
         android:text="Exposure to known COVID-19 positive person in past 14 days"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sp07" />
+        app:layout_constraintTop_toBottomOf="@+id/sp07c" />
 
     <Spinner
-        android:id="@+id/sp08"
+        android:id="@+id/sp08c"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text8" />
+        app:layout_constraintTop_toBottomOf="@+id/text8c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

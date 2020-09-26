@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tabla3param1">
+        <item>19 or younger</item>
+        <item>20 - 40</item>
+        <item>41 - 50</item>
+        <item>51 - 65</item>
+        <item>Older than 65</item>
+    </string-array>
+    <string-array name="Tabla3param2">
+        <item>None</item>
+        <item>Minimal (rare inhaler)</item>
+        <item>More than minimal</item>
+    </string-array>
+    <string-array name="Tabla3param3">
+        <item>Not present</item>
+        <item>Mild/moderate (no CPAP)</item>
+        <item>On CPAP</item>
+
+    </string-array>
+    <string-array name="Tabla3param4">
+        <item>None</item>
+        <item>Minimal (no meds)</item>
+        <item>Mild (1 med)</item>
+        <item>Moderate (2 meds)</item>
+        <item>Severe (3 or more meds)</item>
+    </string-array>
+    <string-array name="Tabla3param5">
+        <item>None</item>
+        <item>Mild (no meds)</item>
+        <item>Moderate (PO meds only)</item>
+        <item>More than moderate (insulin)</item>
+    </string-array>
+    <string-array name="Tabla3param6">
+        <item>No</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+    <string-array name="Tabla3param7">
+        <item>None (Asymptomatic)</item>
+        <item>Yes</item>
+    </string-array>
+    <string-array name="Tabla3param8">
+        <item>No</item>
+        <item>Probably not</item>
+        <item>Possibly</item>
+        <item>Probably</item>
+        <item>Yes</item>
+    </string-array>
+</resources>
