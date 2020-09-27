@@ -30,6 +30,18 @@
         <action
             android:id="@+id/action_SecondFragment_to_PaF"
             app:destination="@id/PatientFactorsFragment" />
+        <argument
+            android:name="PrFScore"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="DiFScore"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="PaFScore"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/ProcedureFactorsFragment"
@@ -40,6 +52,10 @@
         <action
             android:id="@+id/action_PrF_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <argument
+            android:name="PrFTotal"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/DiseaseFactorsFragment"
@@ -50,6 +66,10 @@
         <action
             android:id="@+id/action_DiF_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <argument
+            android:name="DiFTotal"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/PatientFactorsFragment"
@@ -60,5 +80,9 @@
         <action
             android:id="@+id/action_PaF_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <argument
+            android:name="PaFTotal"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
 </navigation>
