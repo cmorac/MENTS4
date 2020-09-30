@@ -30,6 +30,8 @@ public class ProcedureFactorsFragment extends Fragment {
     int Score7;
 
     int PrFScore;
+    int DiFScore;
+    int PaFScore;
 
     @Override
     public View onCreateView(
@@ -43,6 +45,9 @@ public class ProcedureFactorsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        DiFScore = ProcedureFactorsFragmentArgs.fromBundle(getArguments()).getDiFTotal();
+        PaFScore = ProcedureFactorsFragmentArgs.fromBundle(getArguments()).getPaFTotal();
+
         view.findViewById(R.id.button_first).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,6 +55,8 @@ public class ProcedureFactorsFragment extends Fragment {
                 ProcedureFactorsFragmentDirections.ActionPrFToSecondFragment accion1 = ProcedureFactorsFragmentDirections.actionPrFToSecondFragment();
                 PrFScore = Score1+Score2+Score3+Score4+Score5+Score6+Score7;
                 accion1.setPrFScore(PrFScore);
+                accion1.setDiFScore(DiFScore);
+                accion1.setPaFScore(PaFScore);
 
                 NavHostFragment.findNavController(com.example.ments4.ProcedureFactorsFragment.this)
                         .navigate(accion1);

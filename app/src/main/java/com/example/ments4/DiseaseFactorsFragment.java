@@ -28,6 +28,8 @@ public class DiseaseFactorsFragment extends Fragment {
     int Score6;
 
     int DiFScore;
+    int PrFScore;
+    int PaFScore;
 
     @Override
     public View onCreateView(
@@ -41,13 +43,18 @@ public class DiseaseFactorsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        PrFScore = DiseaseFactorsFragmentArgs.fromBundle(getArguments()).getPrFTotal();
+        PaFScore = DiseaseFactorsFragmentArgs.fromBundle(getArguments()).getPaFTotal();
+
         view.findViewById(R.id.button_first).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 DiseaseFactorsFragmentDirections.ActionDiFToSecondFragment accion2 = DiseaseFactorsFragmentDirections.actionDiFToSecondFragment();
                 DiFScore = Score1+Score2+Score3+Score4+Score5+Score6;
-                accion2.setPrFScore(DiFScore);
+                accion2.setDiFScore(DiFScore);
+                accion2.setPrFScore(PrFScore);
+                accion2.setPaFScore(PaFScore);
 
                 NavHostFragment.findNavController(com.example.ments4.DiseaseFactorsFragment.this)
                         .navigate(accion2);
